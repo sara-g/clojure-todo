@@ -1,3 +1,9 @@
 {:paths ["src"]
- :aliases
- {:run {:main-opts ["-m" "todo.core"]}}}
+ 
+  :deps {
+         ring/ring-core {:mvn/version "1.12.1"}
+         ring/ring-jetty-adapter {:mvn/version "1.12.1"}
+         }
+
+ :aliases {:run {:main-opts ["-m" "todo.core"]}}
+ }
