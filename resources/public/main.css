@@ -1,0 +1,20 @@
+:root {
+  --font-stack: 'Segoe UI', sans-serif;
+  --blue: #1d84b5;
+  --purple: #aea4bf;
+  --black: #342E37;
+  --light-gray: #e3e4db;
+  --gray: #cdcdcd;
+}
+
+body {
+  background-color: var(--black);
+}
+
+h1 {
+  font-family: sans-serif;
+  color: var(--purple);
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 5rem;
+}
