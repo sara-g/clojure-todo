@@ -3,4 +3,6 @@ services:
     build: .
     volumes:
       - .:/app
-    command: clojure -M
+    ports:
+      - "2000:2000"
+    command: clojure -M:run
